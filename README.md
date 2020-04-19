@@ -1,5 +1,8 @@
-## Data Streaming Nanodegree
-### SF Crime Statistics with Spark Streaming 
+## SF Crime Statistics with Spark Streaming 
+
+### A screenshot of your kafka-consumer-console output
+![](kafka-consumer-console.png)
+
 
 **1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?**
 
