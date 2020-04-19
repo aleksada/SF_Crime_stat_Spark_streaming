@@ -6,9 +6,6 @@
 ### A screenshot of your progress reporter after executing a Spark job
 ![](spark-job.png)
 
-### A screenshot of the Spark Streaming UI as the streaming continues
-![](spark-ui.png)
-
 **Question 1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?**
 
 I investigated the parameter `processedRowsPerSecond`. The parameter will affect the number of rows we can process per second, which indicates higher throughput and smaller latency. We can also change the parameter `inputRowsPerSecond` to affect the throughput.
