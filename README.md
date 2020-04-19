@@ -3,13 +3,18 @@
 ### A screenshot of your kafka-consumer-console output
 ![](kafka-consumer-console.png)
 
+### A screenshot of your progress reporter after executing a Spark job
+![](spark-job.png)
 
-**1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?**
+### A screenshot of the Spark Streaming UI as the streaming continues
+![](spark-ui.png)
+
+**Question 1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?**
 
 By referring to the `processedRowsPerSecond`. The higher number we get on here, it means that we could process more rows in second, which means higher throughput. Several recommended parameters that we could change are defined below.
 
 
-**2. What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?**
+**Question 2. What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?**
 The goal on here is to maximize the `processedRowsPerSecond` in long run. So, I choose:
 - spark.default.parallelism
 - spark.streaming.kafka.maxRatePerPartition
