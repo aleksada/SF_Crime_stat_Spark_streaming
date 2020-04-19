@@ -1,7 +1,7 @@
 ## SF Crime Statistics with Spark Streaming 
 
 ### A screenshot of your kafka-consumer-console output
-![](kafka-consumer-console.png)
+![](kafka-consumer.png)
 
 ### A screenshot of your progress reporter after executing a Spark job
 ![](spark-job.png)
